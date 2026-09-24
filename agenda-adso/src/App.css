@@ -6,13 +6,13 @@
   text-align: center;
 }
 
-/* Estilos de la sección del Saludo */
+/* Sección Saludo */
 .saludo-section {
   background-color: #f8f9fa;
   border: 1px solid #e9ecef;
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .saludo-form {
@@ -53,12 +53,12 @@
 }
 
 .divider {
-  margin: 30px 0;
+  margin: 24px 0;
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #e0e0e0;
 }
 
-/* Estilos de las Tarjetas de Contacto */
+/* Agenda y Tarjetas */
 .app-title {
   color: #2c3e50;
   margin-bottom: 4px;
@@ -67,6 +67,26 @@
 .app-subtitle {
   color: #666;
   margin-top: 0;
+}
+
+.busqueda-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.busqueda-input {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
+  outline: none;
+}
+
+.busqueda-input:focus {
+  border-color: #39a900;
 }
 
 .contactos-grid {
@@ -109,4 +129,11 @@
   font-weight: bold;
   border-radius: 12px;
   font-size: 0.8rem;
+}
+
+.sin-resultados {
+  margin-top: 20px;
+  color: #888;
+  font-style: italic;
+  width: 100%;
 }
