@@ -1,0 +1,54 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-title {
+  color: #2c3e50;
+}
+
+.contactos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-contacto {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 220px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.card-nombre {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.card-linea {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Etiqueta verde requerida */
+.card-etiqueta {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 10px;
+  background-color: #e6f4ea;
+  color: #1e7e34;
+  font-weight: bold;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
